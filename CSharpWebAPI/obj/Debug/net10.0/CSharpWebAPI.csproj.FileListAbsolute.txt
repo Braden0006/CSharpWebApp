@@ -31,3 +31,4 @@
 /Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/obj/Debug/net10.0/CSharpWebAPI.pdb
 /Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/obj/Debug/net10.0/CSharpWebAPI.genruntimeconfig.cache
 /Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/obj/Debug/net10.0/ref/CSharpWebAPI.dll
+/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/obj/Debug/net10.0/CSharpWebAPI.sourcelink.json
