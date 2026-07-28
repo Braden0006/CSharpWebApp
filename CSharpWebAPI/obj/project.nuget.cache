@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "3ubUIImxNpM=",
+  "dgSpecHash": "W1LqSBNmZZk=",
   "success": true,
   "projectFilePath": "/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/CSharpWebAPI.csproj",
   "expectedPackageFiles": [
     "/Users/bradenwhitcher/.nuget/packages/microsoft.aspnetcore.openapi/10.0.3/microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "/Users/bradenwhitcher/.nuget/packages/microsoft.entityframeworkcore/10.0.10/microsoft.entityframeworkcore.10.0.10.nupkg.sha512",
+    "/Users/bradenwhitcher/.nuget/packages/microsoft.entityframeworkcore.abstractions/10.0.10/microsoft.entityframeworkcore.abstractions.10.0.10.nupkg.sha512",
+    "/Users/bradenwhitcher/.nuget/packages/microsoft.entityframeworkcore.analyzers/10.0.10/microsoft.entityframeworkcore.analyzers.10.0.10.nupkg.sha512",
+    "/Users/bradenwhitcher/.nuget/packages/microsoft.entityframeworkcore.inmemory/10.0.10/microsoft.entityframeworkcore.inmemory.10.0.10.nupkg.sha512",
     "/Users/bradenwhitcher/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
   ],
   "logs": [
