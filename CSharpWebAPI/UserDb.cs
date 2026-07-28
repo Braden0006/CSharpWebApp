@@ -1,5 +1,8 @@
 namespace CSharpWebAPI;
 
+using CSharpWebAPI.Models;
+
+//using CSharpWebAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
 public class UserDb : DbContext
