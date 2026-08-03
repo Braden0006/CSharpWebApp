@@ -7,6 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
+
+// Adds the database context to the DI container and specifies that it will use 
+// an in-memory database. 
 builder.Services.AddDbContext<UsersContext>(opt =>
     opt.UseInMemoryDatabase("Users"));
 
