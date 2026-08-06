@@ -9,7 +9,7 @@ using CSharpWebAPI.Models;
 
 namespace CSharpWebAPI.Controllers
 {
-    [Route("api/user")]
+    [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
     {
@@ -22,14 +22,14 @@ namespace CSharpWebAPI.Controllers
 
         // GET: api/User
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<User>>> GetUsers()
+        public async Task<ActionResult<IEnumerable<UserDTO>>> GetUsers()
         {
             return await _context.Users.ToListAsync();
         }
 
         // GET: api/User/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<User>> GetUser(long id)
+        public async Task<ActionResult<UserDTO>> GetUser(long id)
         {
             var user = await _context.Users.FindAsync(id);
 
@@ -44,14 +44,14 @@ namespace CSharpWebAPI.Controllers
         // PUT: api/User/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutUser(long id, User user)
+        public async Task<IActionResult> PutUser(long id, UserDTO userDTO)
         {
-            if (id != user.Id)
+            if (id != userDTO.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(user).State = EntityState.Modified;
+            _context.Entry(userDTO).State = EntityState.Modified;
 
             try
             {
@@ -75,12 +75,12 @@ namespace CSharpWebAPI.Controllers
         // POST: api/User
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<User>> PostUser(User user)
+        public async Task<ActionResult<UserDTO>> PostUser(UserDTO userDTO)
         {
-            _context.Users.Add(user);
+            _context.Users.Add(userDTO);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetUser), new { id = user.Id }, user);
+            return CreatedAtAction(nameof(GetUser), new { id = userDTO.Id }, userDTO);
         }
 
         // DELETE: api/User/5
