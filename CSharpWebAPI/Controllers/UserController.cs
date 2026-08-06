@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CSharpWebAPI.Models;
+using CSharpWebAPI.Mappers;
 
 namespace CSharpWebAPI.Controllers
 {
@@ -24,7 +25,7 @@ namespace CSharpWebAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<UserDTO>>> GetUsers()
         {
-            return await _context.Users.ToListAsync();
+            return await _context.Users.Select(x => UserMapper.UserToDTO(x)).ToListAsync();
         }
 
         // GET: api/User/5
@@ -38,7 +39,7 @@ namespace CSharpWebAPI.Controllers
                 return NotFound();
             }
 
-            return user;
+            return UserMapper.UserToDTO(user);
         }
 
         // PUT: api/User/5
@@ -77,10 +78,21 @@ namespace CSharpWebAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<UserDTO>> PostUser(UserDTO userDTO)
         {
-            _context.Users.Add(userDTO);
+            var user = new User
+            {
+                FirstName = userDTO.FirstName,
+                LastName = userDTO.LastName,
+                Email = userDTO.Email,
+                Username = userDTO.Username
+            };
+            
+            _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetUser), new { id = userDTO.Id }, userDTO);
+            return CreatedAtAction(
+                nameof(GetUser), 
+                new { id = user.Id },
+                UserMapper.UserToDTO(user));
         }
 
         // DELETE: api/User/5
