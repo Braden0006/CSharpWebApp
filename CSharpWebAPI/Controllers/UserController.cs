@@ -9,7 +9,7 @@ using CSharpWebAPI.Models;
 
 namespace CSharpWebAPI.Controllers
 {
-    [Route("api/User")]
+    [Route("api/user")]
     [ApiController]
     public class UserController : ControllerBase
     {
