@@ -52,22 +52,26 @@ namespace CSharpWebAPI.Controllers
                 return BadRequest();
             }
 
-            _context.Entry(userDTO).State = EntityState.Modified;
+            var user = await _context.Users.FindAsync(id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            
+            user.FirstName = userDTO.FirstName;
+            user.LastName = userDTO.LastName;
+            user.Email = userDTO.Email;
+            user.Username = userDTO.Username;
+
+            //_context.Entry(userDTO).State = EntityState.Modified;
 
             try
             {
                 await _context.SaveChangesAsync();
             }
-            catch (DbUpdateConcurrencyException)
+            catch (DbUpdateConcurrencyException) when  (!UserExists(id))
             {
-                if (!UserExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                return NotFound();
             }
 
             return NoContent();
