@@ -22,4 +22,10 @@
       <Folder Include="Controllers\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <AdditionalFiles Include="Components\Counter.razor" />
+      <AdditionalFiles Include="Components\Pages\Counter.razor" />
+      <AdditionalFiles Include="Components\Pages\Shared\_Layout.cshtml" />
+    </ItemGroup>
+
 </Project>

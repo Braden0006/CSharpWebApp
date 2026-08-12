@@ -300,3 +300,10 @@
 /Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/bin/Debug/net10.0/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/bin/Debug/net10.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/bin/Debug/net10.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/bin/Debug/net10.0/CSharpWebAPI.staticwebassets.runtime.json
+/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/obj/Debug/net10.0/EmbeddedAttribute.cs
+/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/obj/Debug/net10.0/ValidatableTypeAttribute.cs
+/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/obj/Debug/net10.0/CSharpWebAPI.RazorAssemblyInfo.cache
+/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/obj/Debug/net10.0/CSharpWebAPI.RazorAssemblyInfo.cs
+/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/obj/Debug/net10.0/compressed/r17we9ceet-{0}-ax6tuj8tun-ax6tuj8tun.gz
+/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/obj/Debug/net10.0/compressed/aactaej7qs-{0}-zr4b1gdhaw-zr4b1gdhaw.gz
