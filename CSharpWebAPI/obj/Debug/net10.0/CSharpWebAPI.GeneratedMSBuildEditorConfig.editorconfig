@@ -30,22 +30,30 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/App.razor]
-build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+[/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/Components/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Db3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/Components/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Db3VudGVyLnJhem9y
+[/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/Components/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9TaGFyZWQvX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/Pages/FirstPage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmlyc3RQYWdlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+[/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/Components/Pages/FirstPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9GaXJzdFBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

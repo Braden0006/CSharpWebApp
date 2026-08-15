@@ -30,9 +30,9 @@ if (app.Environment.IsDevelopment())
 // Required for interactive components since .NET 8
 app.UseAntiforgery();
 
-app.MapStaticAssets();
+app.UseStaticFiles();
 
-//app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
 app.MapRazorComponents<App>().AddInteractiveServerRenderMode();
 
@@ -41,7 +41,5 @@ app.MapControllers();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
-//app.MapGet("/", () => "Hello World!");
 
 app.Run();
