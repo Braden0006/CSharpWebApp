@@ -46,12 +46,20 @@ build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9TaGFyZWQvX0xh
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/App.razor]
-build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+[/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/_Imports.razor]
-build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+[/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/bradenwhitcher/workspace/github.com/Braden0006/CSharpWebAPI/CSharpWebAPI/Components/Pages/FirstPage.cshtml]
